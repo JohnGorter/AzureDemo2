@@ -29,7 +29,7 @@ namespace DataLayer
     public class TrainingDatabase : DbContext
     {
         public TrainingDatabase()
-            : base("Server=tcp:ledqqicban.database.windows.net,1433;Database=JohnGorterDB;User ID=JohnGorter@ledqqicban;Password=John,john1;Trusted_Connection=False;Encrypt=True;Connection Timeout=30;")
+            : base("Server=tcp:ledqqicban.database.windows.net,1433;Database=JohnGorterDB;User ID=JohnGorter@ledqqicban;Password=<pwd>;Trusted_Connection=False;Encrypt=True;Connection Timeout=30;")
         {
 
         }
